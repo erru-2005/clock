@@ -1,0 +1,49 @@
+
+
+.container{
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+  
+    background: url("clock.png");
+    background-size: cover;
+}
+
+#hour,#min,#sec{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+   
+}
+#hour{
+    background-color: black;
+    height: 7.9vw;
+    width: 0.90vw;
+    top: 24.9%;
+    left: 48.9%;
+    opacity: 1;
+    
+   
+   
+}
+#min{
+    background-color: black;
+    height: 9vw;
+    width: 0.90vw;
+    top: 20.5%;
+    left: 49%;
+    opacity: 0.8;
+    
+    
+}
+
+#sec{
+    background-color: #060505;
+    height: 11vw;
+    width: 0.90vw;
+    top: 15%;
+    left: 49%;
+    opacity: 0.6;
+    
+}
